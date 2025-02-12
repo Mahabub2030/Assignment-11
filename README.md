@@ -57,11 +57,12 @@ A well-renowned school requires the development of a **Library Management System
 ## Environment Variables
 Create a `.env` file and add the following:
 ```
-REACT_APP_FIREBASE_API_KEY=your_firebase_api_key
-REACT_APP_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
-REACT_APP_FIREBASE_PROJECT_ID=your_firebase_project_id
-MONGODB_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret_key
+VITE_apiKey=AIzaSyBYr7ehEHDyz2v9wsO4fVSteWnVaCOxIAk
+VITE_authDomain=library-auth-e40e1.firebaseapp.com
+VITE_projectId=library-auth-e40e1
+VITE_storageBucket=library-auth-e40e1.firebasestorage.app
+VITE_messagingSenderId=831167534850
+VITE_appId=1:831167534850:web:5f4b092239a74e4d66141b
 ```
 
 ## Installation & Setup
